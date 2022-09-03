@@ -1,0 +1,2 @@
+Core : Başka projelerde de kullanılabilen, özel ekipmanlar(widget vs.). 
+       Core katmanındaki ekipmanların projeye göre özelleştirilmiş hali product ta bulunur
