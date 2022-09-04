@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hwa/demos/counter_hello_button_.dart';
+import 'package:flutter_hwa/product/language/language_items.dart';
 
 class StatefullLearn extends StatefulWidget {
   const StatefullLearn({Key? key}) : super(key: key);
@@ -28,7 +29,9 @@ class _StatefullLearnState extends State<StatefullLearn> {
         mainAxisSize: MainAxisSize.min,
         children: [_azaltButton(), _arttirButton()],
       ),
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text(LanguageItems.welcomeTitle),
+      ),
       body: Column(
         children: [
           Center(
