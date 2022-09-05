@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hwa/101/color_life_cycle_view.dart';
 import 'package:flutter_hwa/101/coulmn_row_learn.dart';
 import 'package:flutter_hwa/101/custom_widget_learm.dart';
 import 'package:flutter_hwa/101/indicator_learn.dart';
@@ -8,6 +9,7 @@ import 'package:flutter_hwa/101/stack_learn.dart';
 import 'package:flutter_hwa/101/stateful_life_cycle_learn.dart';
 import 'package:flutter_hwa/101/statefull_lean.dart';
 import 'package:flutter_hwa/101/text_field_learn.dart';
+import 'package:flutter_hwa/demos/color_demos_view.dart';
 import 'package:flutter_hwa/demos/stack_demos_view.dart';
 
 void main() {
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.white),
         primarySwatch: Colors.red,
               ),
-      home:  TextFieldLearn(),
+      home:  ColorLifeCycleView(),
     );
   }
 }
