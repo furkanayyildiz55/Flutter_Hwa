@@ -4,12 +4,16 @@ import 'package:flutter_hwa/101/coulmn_row_learn.dart';
 import 'package:flutter_hwa/101/custom_widget_learm.dart';
 import 'package:flutter_hwa/101/indicator_learn.dart';
 import 'package:flutter_hwa/101/list_tile_learn.dart';
+import 'package:flutter_hwa/101/list_view_builder_learn.dart';
+import 'package:flutter_hwa/101/list_view_learn.dart';
+import 'package:flutter_hwa/101/navigation_learn.dart';
 import 'package:flutter_hwa/101/page_view_learn.dart';
 import 'package:flutter_hwa/101/stack_learn.dart';
 import 'package:flutter_hwa/101/stateful_life_cycle_learn.dart';
 import 'package:flutter_hwa/101/statefull_lean.dart';
 import 'package:flutter_hwa/101/text_field_learn.dart';
 import 'package:flutter_hwa/demos/color_demos_view.dart';
+import 'package:flutter_hwa/demos/my_collections_demos.dart';
 import 'package:flutter_hwa/demos/stack_demos_view.dart';
 
 void main() {
@@ -29,7 +33,7 @@ class MyApp extends StatelessWidget {
         progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.white),
         primarySwatch: Colors.red,
               ),
-      home:  ColorLifeCycleView(),
+      home:  NavigationLearn(),
     );
   }
 }

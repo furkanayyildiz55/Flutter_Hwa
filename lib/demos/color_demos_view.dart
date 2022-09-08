@@ -25,7 +25,7 @@ class _ColorDemosState extends State<ColorDemos> {
   void didUpdateWidget(covariant ColorDemos oldWidget) {
     // TODO: implement didUpdateWidget
     super.didUpdateWidget(oldWidget);
-    inspect(widget);
+    inspect(widget); //methoda verilen değişkenin değerlerini yazdırır... crtl+F5 ile çalıştırmada
     if (widget.intialColor != _backGroundColor && widget.intialColor != null) {
       ChangeBackgroundColor(widget.intialColor!);
     }

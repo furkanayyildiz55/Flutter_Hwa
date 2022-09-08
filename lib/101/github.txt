@@ -1,3 +1,5 @@
 git add . 
 git commit -m "text"
-git push -f origin master
+git push
+
+zorla iter eskiyi komple siler!:  git push -f origin master
