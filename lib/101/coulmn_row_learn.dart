@@ -17,10 +17,10 @@ class CoulmnRowLearn extends StatelessWidget {
       body: Column(
         //mainAxisSize: MainAxisSize.min, //Widget en küçük alanı kaplayacak sekilde ayarlanır...
         children: [
-          Expanded(flex:4 ,child: Container(color: Colors.blue)),
-          Expanded(flex: 1, child: Container(color: Colors.yellow)),
+          Expanded(child: Container(color: Colors.blue)),
+          Expanded( child: Container(color: Colors.yellow)),
           Spacer(flex: 2,),
-          Expanded(flex: 3, child: Container(color: Colors.green)),
+          Expanded( child: Container(color: Colors.green)),
 
         ],
       ),
