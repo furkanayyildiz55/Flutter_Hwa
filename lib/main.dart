@@ -12,6 +12,7 @@ import 'package:flutter_hwa/101/stack_learn.dart';
 import 'package:flutter_hwa/101/stateful_life_cycle_learn.dart';
 import 'package:flutter_hwa/101/statefull_lean.dart';
 import 'package:flutter_hwa/101/text_field_learn.dart';
+import 'package:flutter_hwa/202/tab_learn.dart';
 import 'package:flutter_hwa/demos/color_demos_view.dart';
 import 'package:flutter_hwa/demos/my_collections_demos.dart';
 import 'package:flutter_hwa/demos/stack_demos_view.dart';
@@ -29,12 +30,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        listTileTheme: ListTileThemeData(contentPadding: EdgeInsets.zero),
-        progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.white),
-        primarySwatch: Colors.red,
-              ),
-      home:  NavigationLearn(),
+          tabBarTheme: const TabBarTheme(
+              labelColor: Colors.white,
+              unselectedLabelColor: Colors.grey,
+              indicatorSize: TabBarIndicatorSize.label),
+          listTileTheme: ListTileThemeData(contentPadding: EdgeInsets.zero),
+          progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.white),
+          // primarySwatch: Colors.green,
+          brightness: Brightness.dark),
+      home: TabLearn(),
     );
   }
 }
-
