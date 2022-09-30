@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.white),
           // primarySwatch: Colors.green,
           brightness: Brightness.dark),
-      home: ServicesPostViewLearn(),
+      home: ServicesViewLearn(),
     );
   }
 }
