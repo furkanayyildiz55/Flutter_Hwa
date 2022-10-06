@@ -22,6 +22,8 @@ class _PackageLearnViewState extends State<PackageLearnView>
               launchURL();
             })),
         appBar: AppBar(),
-        body: LoadingBar());
+        body: Column(
+          children: [LoadingBar(), const Text("data")],
+        ));
   }
 }
