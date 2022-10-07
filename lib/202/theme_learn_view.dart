@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hwa/202/theme/password_textfield.dart';
 
 class ThemeLearnView extends StatefulWidget {
   const ThemeLearnView({Key? key}) : super(key: key);
@@ -11,12 +12,16 @@ class _ThemeLearnViewState extends State<ThemeLearnView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: CheckboxListTile(
-        title: Text("Select"),
-        value: true,
-        onChanged: (val) {},
-      ),
-    );
+        appBar: AppBar(),
+        body: Column(
+          children: [
+            PasswordTextField(),
+            CheckboxListTile(
+              title: Text("Select"),
+              value: true,
+              onChanged: (val) {},
+            ),
+          ],
+        ));
   }
 }
