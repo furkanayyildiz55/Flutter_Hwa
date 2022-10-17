@@ -12,6 +12,7 @@ import 'package:flutter_hwa/101/stack_learn.dart';
 import 'package:flutter_hwa/101/stateful_life_cycle_learn.dart';
 import 'package:flutter_hwa/101/statefull_lean.dart';
 import 'package:flutter_hwa/101/text_field_learn.dart';
+import 'package:flutter_hwa/202/image_learn_202.dart';
 import 'package:flutter_hwa/202/model_learn_wiev.dart';
 import 'package:flutter_hwa/202/services/package_learn_view.dart';
 import 'package:flutter_hwa/202/services/services_post_learn_view.dart';
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
           // primarySwatch: Colors.green,
           brightness: Brightness.dark),
       */
-      home: ThemeLearnView(),
+      home: ImageLearn202(),
     );
   }
 }
